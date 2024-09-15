@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hospital Website with HTML, Sass and JavaScript</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <!-- Link icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Navbar Begin -->
+    <nav>
+        <div class="container">
+            <a href="h3" class="nav__logo">
+                <h3 class="nav__logo-text">RARE ASSIST</h3>
+            </a>
+            <ul id="nav__items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Our Features</a></li>
+                <li><a href="#specialists">Resource Locator</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#appointment" class="btn">Multilingual Support</a></li>
+            </ul>
+
+            <button id="nav__btn--open"><i class='bx bx-menu'></i></button>
+            <button id="nav__btn--close"><i class='bx bx-x'></i></button>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Begin -->
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <h1>Navigating Rare Diseases & Cancer: Your Journey Starts Here."</h1>
+                <p>
+                    RareAssist empowers you with knowledge, connects you with experts, and provides personalized support
+                </p>
+                <a href="#appointment" class="btn">Rare Assist Chat Bot</a>
+            </div>
+            <div class="header__image">
+                <img src="./assets/header.svg" alt="Header Image">
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section End -->
+
+    <!-- Services Section Begin -->
+    <section id="services">
+        <h2>Features Section</h2>
+        <p>Your Cure is not only Doctor, also a AI</p>
+
+        <div class="container">
+            <article>
+                <i class='bx bx-book-content'></i>
+                <div>
+                    <h4>AI-Powered Chatbot</h4>
+                    <small><h3>Get Answers, Find Specialists, Access Resources - Instantly.</h3><br>Our AI-powered chatbot provides personalized guidance, answers your questions, helps you find specialists, and connects you with support resources
+
+                    </small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bxs-award'></i>
+                <div>
+                    <h4>Comprehensive Disease Information</h4>
+                    <small><h3>Knowledge is Power: Learn About Your Condition</h3>Access reliable and up-to-date information on a wide range of rare diseases and cancers, including symptoms, diagnosis, treatment options, and ongoing research.</small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-headphone'></i>
+                <div>
+                    <h4>Resource Locator</h4>
+                    <small><h3>Connect with Experts and Support Networks</h3> specialized hospitals, clinics, doctors, support groups, and financial assistance programs in your area or worldwide.</small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-donate-heart'></i>
+                <div>
+                    <h4>Multilingual Support</h4>
+                    <small><h3>Breaking Down Language Barriers</h3>RareAssist is available in multiple languages, ensuring accessibility for a global audience</small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-first-aid'></i>
+                <div>
+                    <h4>Testimonials</h4>
+                    <small>Hear from Patients Who Found Hope with RareAssist.
+                        In Progress (SOON to Lauch Publicly)
+                    </small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-infinite'></i>
+                <div>
+                    <h4>24 Hour Service</h4>
+                    <small>A AI Chat Bot your Custom AI Guidance With you in 24/7 that will guide , to all things 
+                        related to your health</small>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Specialists Section Begin -->
+    <section id="specialists">
+        <h2>Our Top Specialists From India</h2>
+        <p>We Treat More than the 10,000 Plus Cases</p>
+        <div class="container">
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist1.jpg" alt="Specialist One">
+                </div>
+                <div class="specialist__details">
+                    <h4>Prof Dr. Raja Sundaram</h4>
+                    <small>Surgical Oncologist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=61406114184" class="specialist__whatsapp"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </article>
+
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist2.jpg" alt="Specialist Two">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. Bhawna Sirohi</h4>
+                    <small>Medical Oncologist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+61406114184" class="specialist__whatsapp"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </article>
+
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist3.jpg" alt="Specialist Three">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. Prof Suresh H Advani</h4>
+                    <small>Medical Oncologist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+61406114184" class="specialist__whatsapp"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </article>
+
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist4.jpg" alt="Specialist Four">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. S Jayalakshmi</h4>
+                    <small>Radiation Oncologist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+61406114184" class="specialist__whatsapp"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </article>
+        </div>
+    </section>
+    <!-- Specialists Section End -->
+
+    <!-- Testimonials Section Begin -->
+    <section id="testimonials" class="swiper mySwiper">
+        <h2>What Our Patients Say</h2>
+        <p></p>
+
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <p></p>
+                <div class="patient">
+                    <div class="patient__avatar">
+                        <img src="./assets/avatar1.jpg" alt="Patient One">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Namie</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p></p>
+                <div class="patient">
+                    <div class="patient__avatar">
+                        <img src="./assets/avatar2.jpg" alt="Patient Two">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Anthony</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p></p>
+                <div class="patient">
+                    <div class="patient__avatar">
+                        <img src="./assets/avatar3.jpg" alt="Patient Three">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Kevin</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p></p>
+                <div class="patient">
+                    <div class="patient__avatar">
+                        <img src="./assets/avatar4.jpg" alt="Patient Four">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Sofia</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p></p>
+                <div class="patient">
+                    <div class="patient__avatar">
+                        <img src="./assets/avatar5.jpg" alt="Patient Five">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Mariana</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p></p>
+                <div class="patient">
+                    <div class="patient__avatar">
+                        <img src="./assets/avatar6.jpg" alt="Patient Six">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Myatt</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- Appointment Section Begin-->
+    <section id="appointment">
+        <div class="container">
+            <div class="info">
+                <h2>Get an Appointment</h2>
+                <p></p>
+
+                <article class="infor__elements">
+                    <div class="info__icon">
+                        <i class='bx bx-user'></i>
+                    </div>
+                    <div class="info__details">
+                        <h4>Experience Doctor</h4>
+                        <small></small>
+                    </div>
+                </article>
+
+                <article class="infor__elements">
+                    <div class="info__icon">
+                        <i class='bx bx-cube-alt'></i>
+                    </div>
+                    <div class="info__details">
+                        <h4>Advance Technology</h4>
+                        <small></small>
+                    </div>
+                </article>
+
+                <article class="infor__elements">
+                    <div class="info__icon">
+                        <i class='bx bx-first-aid'></i>
+                    </div>
+                    <div class="info__details">
+                        <h4>Emergency Care</h4>
+                        <small></small>
+                    </div>
+                </article>
+            </div>
+
+            <form action="https://formspree.io/f/myyqzjyo" method="POST">
+                <div class="form__group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Your Name" name="Patient's Name" id="name" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" placeholder="Enter Your Phone Number" name="Phone Number" id="phone" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="date">Date</label>
+                    <input type="date" placeholder="Choose a date" name="Date" id="date" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="department">Select Department</label>
+                    <select name="Department" id="department" required>
+                        <option value="Department One">Department One</option>
+                        <option value="Department Two">Department Two</option>
+                        <option value="Department Three">Department Three</option>
+                    </select>
+                </div>
+
+                <div class="form__group">
+                    <label for="doctor">Select Doctor</label>
+                    <select name="Doctor" id="doctor" required>
+                        <option value="Doctor One">Doctor One</option>
+                        <option value="Doctor Two">Doctor Two</option>
+                        <option value="Doctor Three">Doctor Three</option>
+                    </select>
+                </div>
+
+                <div class="form__group">
+                    <label for="message">Additional Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Add a message"></textarea>
+                </div>
+                <input type="submit" value="Submit Request" class="btn-primary">
+            </form>
+        </div>
+    </section>
+    <!-- Appointment Section End-->
+
+    <footer>
+        <div class="container">
+            <article>
+                <a href="#" class="footer__logo"><h3>HOSPITAL</h3></a>
+                <p></p>
+                <div>
+                    <i class="bx bxs-phone"></i>
+                    <small>+61 406 114 184</small>
+                </div>
+                <div>
+                    <i class="bx bx-mail-send"></i>
+                    <small>hospital_support@gmail.com</small>
+                </div>
+            </article>
+
+            <article>
+                <h3>Support</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Purchasing Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Career</a>
+            </article>
+            
+            <article>
+                <h3>Permalinks</h3>
+                <a href="#">Home</a>
+                <a href="#services">Services</a>
+                <a href="#specialists">Specialists</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#appointment" class="btn-primary">Make Appointment</a>    
+            </article>
+            
+            <article>
+                <h3>Contact Us</h3>
+                <p>Press</p>
+                <p>FAQs</p>
+                <div class="footer__socials">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </article>
+        </div>
+        <div class="copyright">
+            <small> Copyright 2024. All Rights Reserved. RARE ASSIST</small>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
